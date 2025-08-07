@@ -1,6 +1,6 @@
 import React from "react";
-import AboutUsThumb1 from "../../../../assets/images/aboutus-thumb-1.png";
-import AboutUsThumb2 from "../../../../assets/images/aboutus-thumb-2.png";
+import AboutUsThumb1 from "../../../../assets/images/about-thumb-1.jpg";
+import AboutUsThumb2 from "../../../../assets/images/about-thumb-2.jpg";
 
 function Section1() {
   return (
@@ -11,7 +11,7 @@ function Section1() {
           {/* left section */}
           <div className="flex-[0.5]">
             <p className="flex items-center font-semibold lg:text-[34px] text-[28px] leading-[120%] tracking-[-1.6px] text-[#2B1845] mb-6  lg:text-start text-center">
-              Established in 2019, TRX International is a specialist talent
+              Established in 2019, TRX is a specialist talent
               solutions provider dedicated exclusively to the global nuclear
               sector.
             </p>
@@ -73,7 +73,7 @@ function Section1() {
 
         {/* bottom section */}
         <div className="flex sm:gap-[60px] gap-6  flex-col sm:flex-row ">
-          <div className="flex-[0.5] space-y-5 rounded-[20px] p-10 bg-gradient-to-r from-[#6B3BAB] to-[#2B1845]">
+          <div className="flex-[0.5] space-y-5 rounded-[20px] lg:p-10 p-5 bg-gradient-to-r from-[#6B3BAB] to-[#2B1845]">
             <h2 className="font-semibold lg:text-[34px] text-[28px] leading-[120%] tracking-[-1.6px] text-[#FFFFFF]">
               Our Purpose
             </h2>
@@ -84,7 +84,7 @@ function Section1() {
               transition.
             </p>
           </div>
-          <div className="flex-[0.5] space-y-5 rounded-[20px] p-10 bg-gradient-to-r from-[#6B3BAB] to-[#2B1845]">
+          <div className="flex-[0.5] space-y-5 rounded-[20px] lg:p-10 p-5 bg-gradient-to-r from-[#6B3BAB] to-[#2B1845]">
             <h2 className="font-semibold lg:text-[34px] text-[28px] leading-[120%] tracking-[-1.6px] text-[#FFFFFF]">
               Our Vision
             </h2>

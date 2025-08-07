@@ -76,10 +76,10 @@ const CaseStudiesSection = () => {
                     <Slider {...settings} ref={sliderRef1}>
                         {caseStudiesCardItem.map((card, index) => (
                             <div key={index} className='lg:py-[12px] lg:px-0 px-[24px]'>
-                                <div className='shadow-lg border border-[#d9d9d9] bg-[#f3f2ff] rounded-[20px] p-[24px] lg:min-h-[250px] min-h-[300px]'>
+                                <div className='shadow-lg border border-[#d9d9d9] bg-[#f3f2ff] rounded-[20px] p-[24px] lg:min-h-[230px] min-h-[300px]'>
                                     <div className='flex items-center gap-[20px] mb-[12px]'>
-                                        <CiCalendar size={25} />
-                                        <p className='text-[18px] leading-[120%] text-[#424242]'>{card.date}</p>
+                                        {/* <CiCalendar size={25} /> */}
+                                        {/* <p className='text-[18px] leading-[120%] text-[#424242]'>{card.date}</p> */}
                                     </div>
                                     <div className='mb-[20px]'>
                                         <p className='text-[#17181F] lg:text-[24px] text-[18px] font-semibold mb-[10px]'>{card.title}</p>

@@ -21,7 +21,7 @@ function Section4() {
             Global Offices
           </h2>
           <p className="font-normal text-[16px] leading-[25.6px] tracking-[-0.32px] text-[#424242] text-center">
-            TRX International operates through a strategic network of offices,
+            TRX operates through a strategic network of offices,
             <span className="lg:block">
               enabling us to deliver local expertise on a global scale and
               provide seamless

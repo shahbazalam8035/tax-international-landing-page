@@ -35,10 +35,10 @@ const HeroSection = () => {
           {/* Left Column */}
           <div className="w-full lg:w-1/2.5 flex flex-col items-start px-6">
             <h1 className="text-[30px] lg:text-[55px] font-[600] leading-[120%] tracking-[0%] text-[#2B1845] text-center sm:text-left">
-            Do you know it’s your CV that could be holding you back?
+            Applying for jobs but not receiving any responses? It's not you, it's your CV
             </h1>
             <p className="lg:text-[18px] text-[16px] font-[400] leading-[150%] text-[#424242] tracking-[0%] mt-4 text-center md:text-left py-[10px]">
-            We know how frustrating it is to apply for multiple jobs without hearing back; your CV might be the problem.
+            96% of CVs are ignored. Be in the 4% that gets noticed.
             </p>
             <div className="md:ml-[-30px] flex justify-center md:justify-start items-center w-full">
               <div

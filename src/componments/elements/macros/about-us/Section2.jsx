@@ -1,35 +1,41 @@
 import React from "react";
-import DollarIcon from "../../../../assets/images/DollarIcon.png";
+import IntegrityFirst from "../../../../assets/images/IntegrityFirst.png";
+import PrecisionExcellence from "../../../../assets/images/PrecisionExcellence.png";
+import PeopleCentered from "../../../../assets/images/PeopleCentered.png";
+import SafetyAlways from "../../../../assets/images/SafetyAlways.png";
+import PartnershipDriven from "../../../../assets/images/PartnershipDriven.png";
+import ForwardThinking from "../../../../assets/images/ForwardThinking.png";
+
 const cardData = [
   {
     title: "Integrity First",
     desc: "We operate with transparency, accountability, and honesty. In an industry where safety, trust, and compliance are non-negotiable, integrity guides every interaction—with clients, candidates, and one another.",
-    image: DollarIcon,
+    image: IntegrityFirst,
   },
   {
     title: "Precision Excellence",
     desc: "We believe in deep specialisation. Our focus on nuclear allows us to deliver unmatched technical knowledge, precision hiring, and long-term value to both clients and candidates.",
-    image: DollarIcon,
+    image: PrecisionExcellence,
   },
   {
     title: "People-Centered",
     desc: "Talent is not a commodity—it's a mission-critical resource. We treat people with respect, value diversity, and champion careers with the same commitment we give to powering projects.",
-    image: DollarIcon,
+    image: PeopleCentered,
   },
   {
     title: "Safety Always",
     desc: "In nuclear, safety is everything. Our processes, candidate vetting, and partner engagements are built around robust quality control & regulatory alignment, ensuring every hire meets  highest safety standards.",
-    image: DollarIcon,
+    image: SafetyAlways,
   },
   {
     title: "Partnership-Driven",
     desc: "We act as a true extension of our clients’ teams. Through collaboration, adaptability, and proactive problem-solving, we foster long-term partnerships grounded in trust and shared success.",
-    image: DollarIcon,
+    image: PartnershipDriven,
   },
   {
     title: "Forward Thinking",
     desc: "The future of nuclear energy is being built today. We embrace innovation—whether it’s supporting emerging technologies like SMRs and fusion, or modernising recruitment through digital transformation.",
-    image: DollarIcon,
+    image: ForwardThinking,
   },
 ];
 
@@ -42,7 +48,7 @@ function Section2() {
             Our Core Values
           </h2>
           <h2 className="lg:hidden block font-bold text-[28px] leading-[120%]  text-[#502F99] text-center">
-          Our Recruitment Models
+            Our Recruitment Models
           </h2>
           <div className="grid sm:grid-cols-3 grid-cols-1 sm:gap-8 gap-6">
             {cardData.map((item, index) => (
@@ -51,7 +57,7 @@ function Section2() {
                 className="flex flex-col lg:gap-[24px] gap-[20px] rounded-[16px] lg:p-8 p-5 bg-[#FFFFFF] border border-[#D9D9D999]"
               >
                 <div className="flex lg:gap-[24px] gap-[20px] items-center">
-                  <img src={DollarIcon} alt="" className="w-[55px] h-[58px]" />
+                  <img src={cardData[index].image} alt="" className="w-[55px] h-[58px]" />
                   <h3 className="font-medium lg:text-[24px] text-[20px] leading-[28px] tracking-[-0.48px] text-[#3A3A3A]">
                     {item?.title}
                   </h3>

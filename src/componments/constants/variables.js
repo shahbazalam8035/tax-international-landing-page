@@ -96,9 +96,9 @@ export const  allRoles = [
     "Waste Policy Advisor",
     "Nuclear Policy Analyst",
     "Nuclear Finance Analyst",
-    "Innovation Manager (Nuclear Sector)",
+    "Innovation Manager",
     "Public Engagement & Communications Manager",
-    "Workforce Development Specialist (Nuclear)"
+    "Workforce Development Specialist"
   ];
 
 
@@ -176,7 +176,7 @@ export const caseStudiesCardItem = [
         client: "Confidential UK SMR developer",
         challenge: "Negotiating the Office for Nuclear Regulation (ONR) Generic Design Assessment demands seasoned professionals. The UK talent pool is finite and heavily competed for by parallel Gigawatt NPP and defence programs.",
         solution: ["Secured an exclusive mandate to supply licensing contractors with a minimum of two successful GDA negotiations each.", "Conducted 36 competency‑based interviews in four weeks; shortlisted 11 specialists.", "Oversaw contract mechanics, IR35 compliance, and rapid onboarding."],
-        overCome: ["Eight contractors placed; all remain on assignment after two years, giving the client continuity through GDA Step 3.", "Reduced external legal review costs by embedding licensing expertise directly into project teams.", "Recognised by the client’s COO as their “most cost‑effective recruitment partner in the SMR space.\""],
+        overCome: [" Eight contractors placed; all remain on assignment after two years, giving the client continuity through relevant GDA Steps.", "Reduced external legal review costs by embedding licensing expertise directly into project teams.", "Recognised by the client’s COO as their “most cost‑effective recruitment partner in the SMR space.\""],
     },
     {
         date: "2022 – present",

@@ -12,7 +12,7 @@ function Section5() {
           </h2>
           <p className="font-semibold text-[18px] leading-[25.6px] tracking-[-0.32px] text-[#424242] text-center">
             As the demand for clean baseload power intensifies, TRX
-            International remains firmly committed to advancing the role of
+             remains firmly committed to advancing the role of
             nuclear energy—by empowering the people who make it possible.
           </p>
           <button

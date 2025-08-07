@@ -72,14 +72,14 @@ const NuclearRegionProject = () => {
                 Our in-house experts
               </p>
               <div className="w-full flex flex-col md:flex-row gap-[40px]">
-                <div className="w-full md:w-1/2 rounded-xl bg-[#ffffff] h-[248px] p-6 flex flex-col justify-center gap-[20px]">
+                <div className="w-full md:w-1/2 rounded-xl bg-[#ffffff] lg:h-[248px] lg:px-6 lg:py-10 p-6 flex flex-col  gap-[20px]">
                   <img src={image2} alt="" className="w-[60px]" />
                   <p className="text-[16px] leading-[150%] text-[#646868] text-start">
                     Understand the exact standards of working in the nuclear
                     field.
                   </p>
                 </div>
-                <div className="w-full md:w-1/2 rounded-xl bg-[#ffffff] h-[248px] p-6 flex flex-col justify-center gap-[20px]">
+                <div className="w-full md:w-1/2 rounded-xl bg-[#ffffff] lg:h-[248px] lg:px-6 lg:py-10 p-6 flex flex-col gap-[20px]">
                   <img src={image3} alt="" className="w-[60px]" />
                   <p className="text-[16px] leading-[150%] text-[#646868] text-start">
                     Our candidate assessments go beyond qualifications — we

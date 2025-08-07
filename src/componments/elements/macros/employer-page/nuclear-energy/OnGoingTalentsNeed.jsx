@@ -11,19 +11,19 @@ const OnGoingTalentsNeed = () => {
         <div className="container mx-auto lg:py-[80px] py-[40px] px-6 space-y-[20px]">
           <div className="text-center mb-[10px]">
             <p className="lg:text-[36px] text-[24px] leading-[120%] text-[#ffffff] font-semibold">
-              Frequently Recruited Positions That Reflect
+            Frequently Recruited Positions That Reflect 
               <br /> Our Ongoing Talent Needs
             </p>
           </div>
 
           <div
-            className="rounded-xl px-[30px] py-[40px]"
+            className="rounded-xl lg:px-[30px] lg:py-[40px] px-[20px] py-[20px]"
             style={{
               background:
                 "linear-gradient(109.73deg, rgba(229, 213, 255, 0.4) 1.8%, rgba(248, 243, 255, 0.979) 57.29%, #F8F4FF 59.45%)",
             }}
           >
-            <div className="list-disc pl-5 space-y-2 grid lg:grid-cols-2 grid-cols-1 max-w-[1044px] w-full items-start lg:text-[20px] text-[18px] leading-[150%] text-[#585858] m-auto gap-x-[20px]">
+            <div className="list-disc pl-5 grid lg:grid-cols-2 grid-cols-1 max-w-[1044px] w-full items-start lg:text-[20px] text-[18px] leading-[150%] text-[#585858] m-auto gap-x-[20px] gap-y-[10px]">
               {allRoles.slice(0, 12).map((title, index) => (
                 <li key={index}>{title}</li>
               ))}
@@ -76,7 +76,7 @@ const OnGoingTalentsNeed = () => {
                   <div className='border-[#C4C4C4] border w-full mb-4'></div>
 
                   <div className="flex-1 overflow-y-auto max-h-[80vh] pr-4">
-                    <ul className="list-disc pl-5 space-y-2 text-[18px] text-[#585858] grid grid-cols-1  lg:grid-cols-2 max-w-[850px] w-full items-start gap-x-[20px]">
+                    <ul className="list-disc pl-5 text-[18px] text-[#585858] grid grid-cols-1  lg:grid-cols-2 max-w-[850px] w-full items-start gap-x-[20px] gap-y-[10px]">
                       {allRoles.map((title, index) => (
                         <li key={index}>{title}</li>
                       ))}

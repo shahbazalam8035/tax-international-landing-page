@@ -1,5 +1,5 @@
 import React from "react";
-import NuclearSectorImage from "../../../../assets/images/NuclearSectorImage.png";
+import NuclearSectorImage from "../../../../assets/images/NuclearSectorImage.webp";
 import { FaArrowRight } from "react-icons/fa6";
 import {motion, AnimatePresence} from "framer-motion"
 

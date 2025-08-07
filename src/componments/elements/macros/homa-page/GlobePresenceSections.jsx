@@ -38,7 +38,7 @@ const GlobePresenceSections = () => {
 
             // Start animations with slight delays for staggered effect
             setTimeout(() => animateValue(setCountriesCount, 0, 40, 2000), 100);
-            setTimeout(() => animateValue(setProfessionalsCount, 0, 1500, 2000), 300);
+            setTimeout(() => animateValue(setProfessionalsCount, 0, 8000, 2000), 300);
           }
         });
       },

@@ -86,17 +86,10 @@ function Section1() {
             {/* Subtitle */}
             <p className="font-[400] text-[18px] leading-[150%] text-[#424242] mt-[20px]">
               <span className="font-bold text-[#6A2CBE]">
-                Hiring in the nuclear sector demands precision.
+              Hiring in the nuclear sector requires precision and expertise.
               </span>{" "}
               <br />
-              Discover top talent faster with{" "}
-              <span className="font-bold text-[#323232]">
-                avua’s AI-driven interview
-              </span>
-              solution built specifically for complex, high-stakes nuclear roles
-              — from operations and commissioning to safety and maintenance. Our
-              simulations replicate real-world nuclear scenarios, helping you
-              assess candidate fit faster and more effectively.
+              Streamline your recruitment process with AI-powered interview solutions tailored to the unique demands of nuclear roles — from operations and commissioning to safety and maintenance. Realistic simulations of nuclear scenarios enable faster, more accurate assessment of candidate suitability.
             </p>
 
             {/* Buttons */}
@@ -109,12 +102,14 @@ function Section1() {
               </button>
 
               {/* Try SmartHire Button */}
-              <button
-                onClick={() => navigate("/employer-sign-up")}
+              {/* <button
+                onClick={() => {
+                  window.open("https://avua.com/smart-hire", "_blank");
+                }}
                 className="font-[500] md:font-[600] text-[16px] leading-[120%] text-[#2B1845] rounded-[50px] border border-[#2B1845]  px-[40px] md:px-[45px] py-[15px] md:py-[20px] hover:scale-105 transition-all duration-200 ease-in-out"
               >
                 <p>Try SmartHire</p>
-              </button>
+              </button> */}
             </div>
             <p className="font-[400] text-[14px] leading-[120%] text-[#8A8A8A] mt-[20px]">
               You'll be redirected to our partner avua’s SmartHire page

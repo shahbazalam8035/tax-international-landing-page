@@ -7,9 +7,11 @@ function Section3() {
       <div className="container mx-auto px-6 lg:py-[80px] py-[40px]">
         <div className="flex lg:gap-[50px] gap-6 lg:flex-row flex-col  ">
           <div className="flex-[0.5] flex flex-col items-center gap-[5px]">
-            <h2 className="font-medium lg:text-[44px] text-[28px] leading-[120%] tracking-[-0.44px] text-[#7130FF] text-center">
-              Why TRX International?
+            <div>
+            <h2 className="w-full font-medium lg:text-[44px] text-[28px] leading-[120%] tracking-[-0.44px] text-[#7130FF] text-center">
+              Why TRX?
             </h2>
+            </div>
             <img src={WhyTRXInternationImage} alt="" className="lg:h-[516px] h-auto" />
           </div>
           <div className="flex-[0.5]">

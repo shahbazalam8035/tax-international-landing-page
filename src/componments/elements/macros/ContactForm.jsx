@@ -455,13 +455,13 @@ function ContactForm({ setIsOpenModel, isOpenModel }) {
                               ? "Submitting..."
                               : "Book A Free Demo"}
                           </button>
-                          <p className="    font-[400] text-[12px] leading-[150%] text-[#A2A2A2]">
+                          {/* <p className="    font-[400] text-[12px] leading-[150%] text-[#A2A2A2]">
                             Discover how{" "}
                             <span className="font-[600]">
                               avua's AI matches top talent in seconds
                             </span>
                             , transforming your hiring process effortlessly.
-                          </p>
+                          </p> */}
                         </div>
                       </form>
                     </motion.div>
