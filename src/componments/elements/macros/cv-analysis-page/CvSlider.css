@@ -1,0 +1,54 @@
+/* Base style for all slides */
+.slick-slide {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  opacity: 0.6;
+  transform: scale(0.9);
+  position: relative;
+}
+
+/* Center slide effect */
+.slick-center {
+  opacity: 1 !important;
+  transform: scale(1.1);
+  z-index: 10;
+}
+
+/* Overlay for template name, hidden by default */
+.template-name-overlay {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  padding: 10px;
+  background: linear-gradient(to right, #2b1845, #6b3bab);
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Show overlay only on center */
+.slick-center .template-name-overlay {
+  opacity: 1;
+}
+/* Make sure container allows scaling */
+.slick-slide > div {
+  overflow: visible; /* allow image to overflow */
+}
+
+/* Disable scaling on mobile */
+@media screen and (max-width: 768px) {
+  .slick-slide {
+    opacity: 1 !important;
+    transform: scale(1) !important;
+  }
+
+  .slick-center {
+    transform: scale(1) !important;
+  }
+
+  .template-name-overlay {
+    opacity: 1;
+    bottom: 0px;
+  }
+}

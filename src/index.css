@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  
+    @font-face {
+      font-display: swap;
+      font-family: 'Manrope';
+      src: url('./assets/fonts/Manrope-ExtraLight.ttf');
+      font-weight: 200;
+    }
+    
+    @font-face {
+      font-display: swap;
+      font-family: 'Manrope';
+      src: url('./assets/fonts/Manrope-Light.ttf');
+      font-weight: 300;
+    }
+    
+    @font-face {
+      font-display: swap;
+      font-family: 'Manrope';
+      src: url('./assets/fonts/Manrope-Regular.ttf');
+      font-weight: 400;
+    }
+    
+    @font-face {
+      font-display: swap;
+      font-family: 'Manrope';
+      src: url('./assets/fonts/Manrope-Medium.ttf');
+      font-weight: 500;
+    }
+    
+    @font-face {
+      font-display: swap;
+      font-family: 'Manrope';
+      src: url('./assets/fonts/Manrope-SemiBold.ttf');
+      font-weight: 600;
+    }
+    
+    @font-face {
+      font-display: swap;
+      font-family: 'Manrope';
+      src: url('./assets/fonts/Manrope-Bold.ttf');
+      font-weight: 700;
+    }
+  }
+
+  /* ADD YOUR GLOBAL CUSTOM CSS HERE */
+.case-studies-slider .slick-slide {
+  opacity: 1 !important;
+}
+.case-studies-slider .slick-slide > div {
+  opacity: 1 !important;
+}
+.case-studies-slider .slick-track {
+  opacity: 1 !important;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
