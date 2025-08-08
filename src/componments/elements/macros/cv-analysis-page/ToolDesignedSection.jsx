@@ -41,10 +41,6 @@ const ToolDesignedSection = () => {
             <h3 className="lg:text-[42px] text-[24px] text-[#2B1845] leading-[120%] font-bold max-w-[456px] w-full mb-[12px]">
               Tools designed for your success
             </h3>
-            <p className="text-[16px] text-[#646868] leading-[150%] max-w-[456px] w-full">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-              venenatis orci sit amet lobortis tristique.
-            </p>
           </div>
           <div className="flex-[0.45] flex flex-col justify-between space-y-[20px] max-w-[446px] w-full">
               {ToolDesignTextItems.map((item, index) => (

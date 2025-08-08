@@ -35,13 +35,15 @@ const HeroSection = () => {
             <img src={avuaLogo} alt="" />
             <p className='lg:text-[24px] text-[20px] leading-[120%] text-[#FFFFFF] lg:font-bold'>Applying for a job but not hearing back? It's not you, it's your CV</p>
           </div>
-          <div className='max-w-[342ppx] flex gap-[10px] items-center justify-between bg-gradient-to-r from-[#FFFFFF66] to-[#FFFFFF33] border-[#d9d9d9] border rounded-md p-[10px] text-[#E0E0E0]'>
+          <a 
+          href='https://avua.com/applicant/resume-builder' target='blank'
+          className='max-w-[342ppx] flex gap-[10px] items-center justify-between bg-gradient-to-r from-[#FFFFFF66] to-[#FFFFFF33] border-[#d9d9d9] border rounded-md p-[10px] text-[#E0E0E0]'>
             <div className=''>
             <p>Explore more</p>
             <p>Check our partners page</p>
             </div>
             <div><BsArrowUpRightCircleFill size={20} /></div>
-          </div>
+          </a>
         </div>
       </div>
     </div>

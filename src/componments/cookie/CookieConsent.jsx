@@ -22,30 +22,6 @@ const settingContent = [
     category: "performance",
   },
   {
-    title: "Analytics",
-    desc: [
-      {
-        cookie: "_gat#",
-        duration: "1 minute",
-        description:
-          "Enables Google Analytics regulate the rate of requesting. It is a HTTP cookie type that lasts for a session.",
-      },
-      {
-        cookie: "#collect",
-        duration: "Per session",
-        description:
-          "Sends data such as visitor’s behavior and device to Google Analytics. It is able to keep track of the visitor across marketing channels and devices. It is a pixel tracker type cookie whose activity lasts within the browsing session.",
-      },
-      {
-        cookie: "#clarity",
-        duration: "Per session",
-        description:
-          "We improve our products and advertising by using Microsoft Clarity to see how you use our website. By using our site, you agree that we and Microsoft can collect and use this data. Our privacy statement has more details.",
-      },
-    ],
-    category: "analytics",
-  },
-  {
     title: "Advertisement",
     desc: "Advertisement cookies are used to provide visitors with relevant ads and marketing campaigns.",
     category: "advertisement",
@@ -220,9 +196,9 @@ const CookieConsent = () => {
 
   return (
     <>
-      <div className="fixed bottom-0 left-0 right-0 md:mx-[140px] md:my-[15px] my-[10px] shadow-lg z-[999]">
-        <div className="md:w-full w-[300px]  bg-white text-black border border-[#D9D9D9] md:px-[20px] md:py-[10px] py-[3px] md:rounded-xl rounded-[50px] mx-auto flex md:gap-10 items-center justify-between flex-row">
-          <p className="hidden md:block text-[14px] leading-4 font-normal font-poppins">
+      <div className="fixed bottom-0 left-0 right-0 lg:mx-[140px] lg:my-[15px] my-[10px] shadow-lg z-[999]">
+        <div className="lg:w-full w-[300px]  bg-white text-black border border-[#D9D9D9] lg:px-[20px] lg:py-[10px] py-[3px] lg:rounded-xl rounded-[50px] mx-auto flex lg:gap-10 items-center justify-between flex-row">
+          <p className="hidden lg:block text-[14px] leading-4 font-normal font-poppins">
             We use cookies to make your experience on this website better. By
             continuing to browse this site, you agree to the use of cookies. For
             more information, please read our &nbsp;
@@ -234,8 +210,8 @@ const CookieConsent = () => {
               Privacy Policy.&nbsp;
             </a>
           </p>
-          <p className="block md:hidden text-[10.8px] leading-2 font-normal font-poppins whitespace-nowrap px-1 ">
-            by using avua.com, you accept our &nbsp;
+          <p className="block lg:hidden text-[10.8px] leading-2 font-normal font-poppins whitespace-nowrap px-1 ">
+            by using TRX, you accept our &nbsp;
             <a
               href=""
               className="text-[#864EFF]"
@@ -246,19 +222,19 @@ const CookieConsent = () => {
           </p>
           <div className="inline-flex gap-5">
             <button
-              className=" md:block hidden border border-[#D9D9D9] shadow px-[30px] py-[6px] rounded-[50px] text-[12px] leading-5 font-[500] text-[#7B7B7B] whitespace-nowrap md:text-[14px]"
+              className=" lg:block hidden border border-[#D9D9D9] shadow px-[30px] py-[6px] rounded-[50px] text-[12px] leading-5 font-[500] text-[#7B7B7B] whitespace-nowrap md:text-[14px]"
               onClick={openSettingsPopup}
             >
               Cookie Settings
             </button>
             <button
-              className="bg-gradient-to-r from-[#864EFF] to-[#502F99] shadow md:px-[30px] px-[10px] md:py-[6px] py-[1px] rounded-[50px] md:text-[14px] text-[10px] md:leading-5 leading-1 font-[500] text-[#ffffff]"
+              className="bg-gradient-to-r from-[#864EFF] to-[#502F99] shadow lg:px-[30px] px-[10px] lg:py-[6px] py-[1px] rounded-[50px] lg:text-[14px] text-[10px] lg:leading-5 leading-1 font-[500] text-[#ffffff]"
               onClick={acceptCookies}
             >
               Accept
             </button>
             <button
-              className="md:block hidden absolute top-0 right-0 text-red m-1 bg-[#f8f9fe] p-[2px] rounded-full "
+              className="lg:block hidden absolute top-0 right-0 text-red m-1 bg-[#f8f9fe] p-[2px] rounded-full "
               onClick={acceptCookies}
             >
               <RxCross2 />
@@ -276,7 +252,7 @@ const CookieConsent = () => {
               initial={{ opacity: 0, y: "-50%" }}
               animate={{ opacity: 1, y: "0%" }}
               transition={{ duration: 0.5 }}
-              className="bg-white rounded-lg shadow-lg max-w-[60%] w-full mx-4 sm:mx-auto overflow-y-auto mt-36 mb-10"
+              className="bg-white rounded-lg shadow-lg max-w-[60%] w-full mx-4 sm:mx-auto overflow-y-auto "
             >
               <div className="flex justify-end px-4 py-2">
                 <button

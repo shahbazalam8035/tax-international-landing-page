@@ -4,7 +4,7 @@ import WhyChoseUs from '../../componments/elements/macros/employer-page/nuclear-
 import RecruitmentsModal from '../../componments/elements/macros/employer-page/nuclear-medicine/RecruitmentsModal'
 import EmployerContactUsSection from '../../componments/elements/macros/employer-page/nuclear-energy/EmployerContactUsSection'
 import RolesWePlace from '../../componments/elements/macros/employer-page/nuclear-medicine/RolesWePlace'
-import CaseStudiesSection from '../../componments/elements/macros/homa-page/CaseStudiesSection'
+import CaseStudiesMedicine from '../../componments/elements/macros/employer-page/nuclear-medicine/CaseStudiesMedicine'
 
 const NuclearMedicine = () => {
   return (
@@ -13,7 +13,7 @@ const NuclearMedicine = () => {
     <WhyChoseUs/>
     <RecruitmentsModal/>
     <RolesWePlace/>
-    <CaseStudiesSection/>
+    <CaseStudiesMedicine/>
     <EmployerContactUsSection/>
     </>
   )

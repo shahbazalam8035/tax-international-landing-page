@@ -111,9 +111,9 @@ function Section1() {
                 <p>Try SmartHire</p>
               </button> */}
             </div>
-            <p className="font-[400] text-[14px] leading-[120%] text-[#8A8A8A] mt-[20px]">
+            {/* <p className="font-[400] text-[14px] leading-[120%] text-[#8A8A8A] mt-[20px]">
               You'll be redirected to our partner avua’s SmartHire page
-            </p>
+            </p> */}
           </div>
 
           {/* Right Side */}

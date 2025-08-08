@@ -86,9 +86,6 @@ function Section2() {
               </div>
             </div>
           </div>
-          <p className="font-normal text-[16px] leading-[120%] text-[#424242] lg:text-right text-center">
-            (You will be redirected to avua to learn more.)
-          </p>
         </div>
       </div>
     </div>

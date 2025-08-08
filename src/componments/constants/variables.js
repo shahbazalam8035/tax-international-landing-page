@@ -219,3 +219,21 @@ export const caseStudiesCardItem = [
         overCome: ["Placed over 80 specialists (45% permanent, 55% contract) to date.", "Contractor bench has achieved a 97% extension rate—critical for continuity on multi‑year work packages.", "Recognised by ITER HR for “simplifying cross‑company resourcing and raising overall talent quality.”"]
     }
 ];
+export const caseStudiesCardItemMedicine = [
+    {
+        date: "2019 – Present",
+        title: "United States — Scaling Radiopharmaceutical Talent Nationwide",
+        client: "A leading U.S.-based nuclear medicine company expanding its network of PET isotope production facilities across multiple states.",
+        challenge: "To meet growing demand for time-sensitive PET tracers (such as F-18 FDG), the client launched an aggressive expansion plan involving several new production sites. Each facility required highly specialized personnel—cyclotron engineers, radiochemists, and nuclear pharmacists—with strict regulatory compliance requirements. Internal HR teams lacked access to niche talent pools and were unable to scale quickly.",
+        solution: ["Conducted an in-depth engagement with operations and QA teams to define technical job profiles and regulatory role requirements. ", " Developed a targeted talent acquisition strategy, focused on regions with existing radiopharmaceutical infrastructure.", "Activated our nuclear medicine talent network to deliver 85 qualified CVs within three weeks—each candidate pre-vetted for cyclotron operations, GMP radiochemistry, or regulatory QA experience. ", "Assigned a dedicated TRX recruiter to integrate with the client’s internal team, managing interviews, credential verification, and onboarding aligned with FDA and NRC standards."],
+        overCome: ["100% of priority roles filled across all new sites in under 10 weeks, including cyclotron technicians, radiochemists, nuclear pharmacists, and QA/QC officers.","Enabled the client to begin isotope production on schedule at each facility. ", "Delivered a 38% cost saving compared to traditional life sciences recruiters. ", "Zero attrition after 18 months; several hires promoted to site leadership positions. "],
+    },
+    {
+        date: "2021 – present",
+        title: "United Kingdom — Rapid Radiopharmaceutical Staffing for NHS-Linked Production Facility",
+        client: "A private radiopharmaceutical manufacturer partnered with the NHS to scale local production of diagnostic and therapeutic isotopes for oncology and neurology.",
+        challenge: "With rising clinical demand for isotopes such as Tc-99m, Ga-68, and Lu-177, the client was commissioned to establish a new GMP-compliant production hub serving NHS hospitals across England and Wales. While the UK has strong academic and clinical expertise, the commercial workforce for radiopharmaceuticals was stretched. Immediate staffing gaps in radiochemistry, QA/QC, and radiation safety threatened commissioning timelines.",
+        solution: ["Ran a joint workforce planning session with the client’s leadership to define role profiles, MHRA compliance needs, and facility readiness targets. ", "Executed a UK-centric talent sourcing strategy focused on NHS-experienced radiopharmacy professionals, university radiochemists, and pharma-trained QPs. ", "Delivered over 50 qualified CVs within three weeks, covering radiochemists, production techs, QPs, and certified RPAs/RPOs. ", "Managed compliance with UK Home Office clearance, DBS checks, and facility-level vetting processes."],
+        overCome: ["All critical roles filled in time for validation, MHRA submission, and phased production start-up. ", " Reduced staffing delays by approximately three months, allowing the client to meet NHS delivery milestones.", "Several hires with prior NHS experience now lead internal capability development and training programs, strengthening long-term local expertise. "],
+     },
+];

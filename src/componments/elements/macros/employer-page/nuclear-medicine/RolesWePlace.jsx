@@ -5,6 +5,13 @@ import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
 const rolesData = [
   {
     title: "Clinical Imaging",
+    roles: ["Principal Investigators (Lu-177, Ac-225, etc.)",
+      "Clinical Scientists (SPECT/PET studies)",
+      "Theranostic Trial Coordinators",
+    ],
+  },
+  {
+    title: "Clinical Imaging",
     roles: [
       "PET/CT Technologists",
       "Nuclear Medicine Physicians",
@@ -13,7 +20,7 @@ const rolesData = [
     ],
   },
   {
-    title: "Radiopharmacy & Production",
+    title: "Radiopharmacy & R&D",
     roles: [
       "Cyclotron Engineers",
       "Radiochemists",
@@ -22,13 +29,14 @@ const rolesData = [
     ],
   },
   {
-    title: "Compliance & QA",
+    title: "Regulatory & Safety",
     roles: [
       "Radiation Protection Advisors",
       "QA/QC Specialists (GMP, FDA, EMA)",
       "Regulatory Affairs Managers",
     ],
   },
+  
 ];
 
 const RolesWePlace = () => {
@@ -122,7 +130,7 @@ const RolesWePlace = () => {
                   <h3 className="text-[24px] leading-[150%] text-[#000000] font-medium mb-3">
                     {roleSet.title}
                   </h3>
-                  <ul className="text-[#585858] text-[24px] lg:leading-[250%] leading-[200%] list-disc ml-[20px]">
+                  <ul className="text-[#585858] text-[24px] lg:leading-[200%] leading-[200%] list-disc ml-[20px]">
                     {roleSet.roles.map((role, i) => (
                       <li key={i}>{role}</li>
                     ))}

@@ -251,7 +251,7 @@ function ContactForm({ setIsOpenModel, isOpenModel }) {
             animate={{ scale: 1, opacity: 1 }}
             exit={{ scale: 0.7, opacity: 0 }}
             transition={{ duration: 0.3, ease: "easeInOut" }}
-            className="relative bg-white rounded-[10px] shadow-2xl max-w-[1127px] w-[90%] max-h-[90vh] overflow-y-auto m-4"
+            className="relative bg-white rounded-[10px] shadow-2xl max-w-[1127px] w-[90%] max-h-[90vh] m-4 overflow-y-scroll md:overflow-hidden"
           >
             {/* Close Button */}
             <button
@@ -263,14 +263,13 @@ function ContactForm({ setIsOpenModel, isOpenModel }) {
 
             <div className="flex flex-col lg:flex-row gap-[60px] lg:p-[60px]">
               {/* Left Side - Card */}
-              <div className="hidden flex-1 md:flex flex-col gap-[40px] justify-center items-center">
-                <div className="flex flex-col gap-[30px]">
-                  <h2 className="    font-[600] text-[32px] lg:text-[55px] leading-[120%] text-[#191B1F] text-center">
-                    Ready to Hire Smarter with AI?
+              <div className="hidden flex-1 md:flex flex-col gap-[40px] justify-center items-center md:max-h-[650px]">
+                <div className="flex flex-col gap-[12px]">
+                  <h2 className="font-[600] text-[32px] lg:text-[55px] leading-[120%] text-[#191B1F] text-center">
+                    Looking to hire?
                   </h2>
-                  <p className="    font-[400] text-[16px] lg:text-[21px] leading-[29px] text-[#41474E] text-center">
-                    Get a personalized demo of how avua® helps you automate
-                    interviews, reduce bias, and hire top talent 70% faster.
+                  <p className="font-[400] text-[16px] lg:text-[28px] leading-[120%] text-[#5C6370] text-center">
+                    Connect with our team
                   </p>
                 </div>
                 <div className="">
@@ -280,7 +279,7 @@ function ContactForm({ setIsOpenModel, isOpenModel }) {
 
               {/* Right Side - Form */}
               <div
-                className="flex-1 p-[20px] lg:p-[23px] rounded-[10px]"
+                className="flex-1 p-[20px] lg:p-[23px] rounded-[10px] md:h-[550px] md:overflow-y-scroll"
                 style={{ boxShadow: "0px 7px 30px 0px rgba(0, 0, 0, 0.13)" }}
               >
                 <AnimatePresence mode="wait">
@@ -312,18 +311,7 @@ function ContactForm({ setIsOpenModel, isOpenModel }) {
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: -10 }}
                       transition={{ duration: 0.3 }}
-                      className="flex flex-col gap-[23px]"
                     >
-                      <div className="flex flex-col gap-[14px]">
-                        <h1 className="    font-[500] text-[24px] lg:text-[31px] leading-[120%] text-[#2B1845] text-center">
-                          Request a demo
-                        </h1>
-                        <p className="    font-[400] text-[16px] lg:text-[18px] leading-[150%] text-[#41474E] text-center">
-                          Connect with our team to explore how avua® supports
-                          hiring at scale.
-                        </p>
-                      </div>
-
                       <form
                         onSubmit={formik.handleSubmit}
                         className="flex flex-col gap-[24px]"
@@ -451,17 +439,8 @@ function ContactForm({ setIsOpenModel, isOpenModel }) {
                             disabled={isSubmitting}
                             className="w-full     font-[600] text-[16px] leading-[120%] text-[#FFFFFF] bg-gradient-to-r from-[#6B3BAB] to-[#2B1845] rounded-[4px] text-center px-[40px] py-[16px] disabled:opacity-50 disabled:cursor-not-allowed hover:shadow-lg transition-shadow"
                           >
-                            {isSubmitting
-                              ? "Submitting..."
-                              : "Book A Free Demo"}
+                            {isSubmitting ? "Submitting..." : "Get Started"}
                           </button>
-                          {/* <p className="    font-[400] text-[12px] leading-[150%] text-[#A2A2A2]">
-                            Discover how{" "}
-                            <span className="font-[600]">
-                              avua's AI matches top talent in seconds
-                            </span>
-                            , transforming your hiring process effortlessly.
-                          </p> */}
                         </div>
                       </form>
                     </motion.div>

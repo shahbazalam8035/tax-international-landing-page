@@ -38,7 +38,7 @@ const Header = () => {
           {/* Employer */}
           <div className="relative group">
             <button className="flex items-center gap-1 text-[#424242] text-[18px] leading-[150%] px-[12px] py-[8px] font-medium hover:text-[#864EFF] transition">
-              Employer <RiArrowDropDownLine size={20} />
+              Employers <RiArrowDropDownLine size={20} />
             </button>
 
             {/* Invisible hover bridge */}
