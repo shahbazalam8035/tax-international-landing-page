@@ -62,7 +62,7 @@ const HeroSection = () => {
 
             <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto my-[30px]">
               <a
-                href="https://avua.online/applicant/resume-builder?scrollTo=cv-upload" target="blank"
+                href="https://avua.com/applicant/resume-builder?scrollTo=cv-upload" target="blank"
         className=" p-[20px] rounded-[50px] text-center font-[600] text-[16px] leading-[120%] bg-gradient-to-r from-[#6B3BAB] to-[#2B1845] text-[#FFFFFF]"
               >
                 Get Your Free Resume Score

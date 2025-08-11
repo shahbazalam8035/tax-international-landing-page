@@ -30,7 +30,7 @@ const UploadCvSection = () => {
               <img src={uploadCvImage} alt="" />
               <p className='text-[23px] text-[#2b1845] leading-[120%] font-semibold'>CVs</p>
               <a
-              href='https://avua.online/applicant/resume-builder?scrollTo=cv-upload' target='blank'
+              href='https://avua.com/applicant/resume-builder?scrollTo=cv-upload' target='blank'
                 id="cv-upload-analysis" // id added for Google Tag Manager Click button detection
                 className={`bg-gradient-to-r from-[#864EFF] to-[#502F99] text-white  hover:bg-gradient-to-r hover:from-[#864EFF] hover:to-[#502F99] hover:text-transparent hover:bg-clip-text px-[20px] py-[10px] rounded-[50px] cursor-pointer border border-[#864EFF] font-[500] text-[16px] "`}
               >
