@@ -46,7 +46,7 @@ function Section4() {
         <motion.img
           src={NuclearSectorImage}
           alt=""
-          className="lg:h-[551px] md:h-[400px]  h-auto rounded-xl object-cover"
+          className="lg:h-[570px] md:h-[400px]  h-auto rounded-xl object-cover"
           whileHover={{
             scale: 1.05,
             boxShadow: "0px 10px 20px rgba(0,0,0,0.2)",
@@ -65,7 +65,7 @@ function Section4() {
               safer.
             </p>
           </div>
-          <div className="flex gap-4 flex-col lg:flex-row ">
+          <div className=" gap-4 grid md:grid-cols-3 grid-cols-1">
             {cardData.map((card, index) => (
               <div
                 key={index}
