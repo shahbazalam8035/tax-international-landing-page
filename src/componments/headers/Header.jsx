@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { RiArrowDropDownLine, RiMenuLine, RiCloseLine } from "react-icons/ri";
 import trxLogo from "../../assets/images/trx-logo.svg"; // Update this path
+import trxIcon from "../../assets/images/trx-icon.svg"; // Update this path
 import { NavLink, useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -30,7 +31,7 @@ const Header = () => {
             navigate("/");
           }}
         >
-          <img src={trxLogo} alt="Logo" className="h-[50px]" />
+          <img src={trxIcon} alt="Logo" className="h-[50px]" />
         </div>
 
         {/* Nav (Centered absolutely) */}

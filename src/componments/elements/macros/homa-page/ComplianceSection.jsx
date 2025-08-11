@@ -43,7 +43,7 @@ const ComplianceSection = () => {
           prevIndex === animationData.length - 1 ? 0 : prevIndex + 1
         );
         setIsAnimating(false);
-      }, 500);
+      }, 50);
       
     }, 2000);
 

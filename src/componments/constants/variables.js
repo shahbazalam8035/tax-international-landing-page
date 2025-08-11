@@ -157,8 +157,8 @@ export const caseStudiesCardItem = [
     {
         date: "2019 – Present",
         title: "Kingdom of Saudi Arabia — First Commercial Nuclear Power Plant",
-        client: "A regional radiopharmaceutical manufacturer launching new cyclotron and radiopharmacy sites",
-        challenge: "The client needed to staff multiple sites across different countries with specialists qualified under diverse regulatory regimes, including GMP QPs and radiation protection advisors. The timeline was aggressive and required coordinated hires.",
+        client: "Client Governmentbacked utility leading the Kingdom’s inaugural nuclear program",
+        challenge: " Saudi Arabia’s Vision 2030 calls for a diversified energy mix. Our client needed to build an internal capability—almost from scratch—to develop, license, and construct the nation’s first gigawattscale nuclear facility. Timelines were aggressive and international scrutiny high.",
         solution: ["On‑site workshop in Riyadh (November 2019) to map regulatory milestones, staffing levels, and organizational design for each project phase.", "Produced a bespoke Nuclear Workforce Roadmap covering 75 key positions across project management, licensing, and engineering disciplines.", "Activated our global talent network and delivered 150 screened CVs in < 30 days; 38% came from the wider GCC, 62% from Tier‑1 nuclear nations (UK, Canada, Korea, France).", "Embedded a bilingual TRX liaison on site to streamline security clearance and relocation logistics."],
         overCome: ["92 % of roles filled within eight weeks, allowing the client to freeze the Preliminary Safety Analysis Report on schedule.", "Accelerated FEED package approval by four months compared with baseline plan.", "Zero voluntary attrition after 24 months; several secondees have since transitioned into permanent Saudi‑national mentorship roles."],
     },
