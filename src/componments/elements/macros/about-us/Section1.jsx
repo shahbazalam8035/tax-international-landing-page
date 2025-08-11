@@ -24,18 +24,18 @@ function Section1() {
             leading the charge.
             </p>
             <div className="flex gap-5">
-              <div>
+              <div className="flex-[0.5]">
               <img
                 src={AboutUsThumb1}
                 alt=""
-                className="lg:w-[230px] lg:h-auto w-auto h-[230px] object-cover rounded-[20px]"
+                className="md:w-full lg:h-auto w-auto h-[230px] object-cover rounded-[20px]"
               />
               </div>
-              <div>
+              <div className="flex-[0.5]">
               <img
                 src={AboutUsThumb2}
                 alt=""
-                className="lg:w-[230px] lg:h-auto  w-auto h-[230px] object-cover rounded-[20px]"
+                className="md:w-full lg:h-auto  w-auto h-[230px] object-cover rounded-[20px]"
               />
               </div>
             </div>

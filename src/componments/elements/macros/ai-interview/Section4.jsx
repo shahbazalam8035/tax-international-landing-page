@@ -21,7 +21,7 @@ function Section4() {
       impact:["100% audit pass rate across all reviewed hiring cycles","Standardization of interviews across 7 locations","Hiring cycle time reduced by 28%"],
     },
     {
-      country: "United Kingdom",
+      country: "United States",
       title:"National nuclear research and safety laboratory",
       challenge: "Rapidly recruiting hundreds of short-term technical workers for outage and maintenance projects while maintaining compliance with national nuclear safety regulations.",
       solution:"AI-led interviews conducted at scale, assessing safety awareness, technical capability, and regulatory readiness in multiple languages.",

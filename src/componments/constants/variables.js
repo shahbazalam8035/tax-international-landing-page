@@ -156,7 +156,7 @@ export const  allRoles = [
 export const caseStudiesCardItem = [
     {
         date: "2019 – Present",
-        title: "Kingdom of Saudi Arabia — First Commercial Nuclear Power Plant (2019 – Present)",
+        title: "Kingdom of Saudi Arabia — First Commercial Nuclear Power Plant",
         client: "A regional radiopharmaceutical manufacturer launching new cyclotron and radiopharmacy sites",
         challenge: "The client needed to staff multiple sites across different countries with specialists qualified under diverse regulatory regimes, including GMP QPs and radiation protection advisors. The timeline was aggressive and required coordinated hires.",
         solution: ["On‑site workshop in Riyadh (November 2019) to map regulatory milestones, staffing levels, and organizational design for each project phase.", "Produced a bespoke Nuclear Workforce Roadmap covering 75 key positions across project management, licensing, and engineering disciplines.", "Activated our global talent network and delivered 150 screened CVs in < 30 days; 38% came from the wider GCC, 62% from Tier‑1 nuclear nations (UK, Canada, Korea, France).", "Embedded a bilingual TRX liaison on site to streamline security clearance and relocation logistics."],
@@ -164,7 +164,7 @@ export const caseStudiesCardItem = [
     },
     {
         date: "2021 – present",
-        title: "Poland — BWRX‑300 SMR Fleet Deployment (2021 – present)",
+        title: "Poland — BWRX‑300 SMR Fleet Deployment",
         client: "Private‑sector consortium developing the country’s first fleet of GE Hitachi BWRX‑300 Small Modular Reactors",
         challenge: "Challenge: With no domestic nuclear pedigree, the client required clarity on European regulatory expectations, salary benchmarks, and a hiring strategy that supported their owner‑operator responsibilities for up to ten SMRs.",
         solution: ["Market‑intelligence briefing in Warsaw covering EU nuclear new‑builds, permitting timelines, and talent availability across VVER, EPR, and AGR legacy fleets.", "Built a role matrix & compensation model aligned to Polish labour law and regional cost‑of‑living indices.", "Deployed a dedicated research cell that produced curated longlists for project controls, reactor island engineering, and quality management within two weeks."],
@@ -172,7 +172,7 @@ export const caseStudiesCardItem = [
     },
     {
         date: "2020 – Present",
-        title: "United Kingdom — SMR Licensing Specialists (2020 – present)",
+        title: "United Kingdom — SMR Licensing Specialists",
         client: "Confidential UK SMR developer",
         challenge: "Negotiating the Office for Nuclear Regulation (ONR) Generic Design Assessment demands seasoned professionals. The UK talent pool is finite and heavily competed for by parallel Gigawatt NPP and defence programs.",
         solution: ["Secured an exclusive mandate to supply licensing contractors with a minimum of two successful GDA negotiations each.", "Conducted 36 competency‑based interviews in four weeks; shortlisted 11 specialists.", "Oversaw contract mechanics, IR35 compliance, and rapid onboarding."],
@@ -180,7 +180,7 @@ export const caseStudiesCardItem = [
     },
     {
         date: "2022 – present",
-        title: "Global — Nuclear Fusion Startup (2022 – present)",
+        title: "Global — Nuclear Fusion Startup",
         client: "Early‑stage fusion company with R&D hubs in Tokyo (JP) and Reading (UK) ",
         challenge: " Hyper‑growth environment demanded cross‑border hiring and compensation structures that would attract both traditional fission talent and cutting‑edge plasma physicists.",
         solution: ["Delivered a global salary survey spanning 14 countries and three currency bands.", "Provided comparative analysis of equity incentives typical in deep‑tech start‑ups vs. established nuclear organisations.", "Placed engineers across mechanical design, high‑temperature superconducting magnets, and advanced manufacturing."],
@@ -188,7 +188,7 @@ export const caseStudiesCardItem = [
     },
     {
         date: "2019 – present",
-        title: "United Kingdom — Multidisciplinary Engineering Consultancy (2019 – present)",
+        title: "United Kingdom — Multidisciplinary Engineering Consultancy",
         client: " UK‑based EPC contractor active in new‑build and SMR projects",
         challenge: " The client sought a single external partner capable of covering everything from civil design to systems engineering during bid surges.",
         solution: ["Established preferred‑supplier status after outperforming three incumbent agencies on speed and quality.", "Embedded a TRX account manager inside the client’s Bristol office one day per week.", "Leveraged talent pools from our Saudi & Polish programs to cross‑pollinate best practice."],
@@ -196,7 +196,7 @@ export const caseStudiesCardItem = [
     },
     {
         date: "2023",
-        title: "Canada — SMR Start‑up Leadership Hires (2023)",
+        title: "Canada — SMR Start‑up Leadership Hires",
         client: "SMR technology start‑up headquartered in Ontario ",
         challenge: " The founders needed senior leaders who could operate in a lean start‑up but still satisfy CNSC regulatory rigor.",
         solution: ["Launched a rapid‑response search that delivered three slate candidates per role within seven days.", "Roles included Engineering Director, Procedure Writer (N286), and Operations Specialist.", "Managed reference checks across three continents and coordinated cross‑border relocation packages."],
@@ -204,7 +204,7 @@ export const caseStudiesCardItem = [
     },
     {
         date: "2021 – present",
-        title: "Germany — Decommissioning & Radioactive Waste Management (2021 – present)",
+        title: "Germany — Decommissioning & Radioactive Waste Management",
         client: "Tier‑1 German utility winding down its nuclear fleet ",
         challenge: "Niche expertise in decommissioning, paired with mandatory German‑language proficiency, made roles extremely hard to fill.",
         solution: ["Became exclusive recruitment partner after successfully staffing initial four positions others had failed to fill for six months.", "Deployed German‑speaking recruiters and hosted virtual job fairs to tap expatriate talent.", "Streamlined AÜG compliance for contingent hires."],
@@ -212,7 +212,7 @@ export const caseStudiesCardItem = [
     },
     {
         date: "2018 – present",
-        title: "France — ITER Fusion Project Support (2018 – present)",
+        title: "France — ITER Fusion Project Support",
         client: " Multiple contractors and research entities on the ITER site in Cadarache ",
         challenge: "ITER’s multinational ecosystem requires both permanent and contingent staff that can navigate complex safety regimes and cultural nuances.",
         solution: ["Created a central TRX‑managed talent pool for engineering & safety disciplines (nuclear analysis, cryogenics, RAMI).", "Coordinated with French labour authorities to manage work‑permit processes for non‑EU specialists.", "Implemented a shared services onboarding model that reduced duplication across multiple contractors."],

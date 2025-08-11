@@ -1,54 +1,136 @@
-/* Base style for all slides */
-.slick-slide {
+/* Custom Carousel Styles */
+.custom-carousel-container {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.custom-carousel-track {
+  display: flex;
+  align-items: center;
+  will-change: transform;
+  flex-wrap: nowrap;
+}
+
+.custom-carousel-slide {
+  flex: 0 0 auto;
   transition: transform 0.3s ease, opacity 0.3s ease;
   opacity: 0.6;
   transform: scale(0.9);
   position: relative;
+  min-width: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Center slide effect */
-.slick-center {
+.custom-carousel-slide.center-slide {
   opacity: 1 !important;
   transform: scale(1.1);
   z-index: 10;
 }
 
-/* Overlay for template name, hidden by default */
+/* Image container with consistent sizing */
+.custom-carousel-slide .relative {
+  width: 100%;
+  position: relative; /* Ensure relative positioning for absolute children */
+}
+
+/* Ensure images fit consistently and fill container */
+.custom-carousel-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Overlay positioned absolutely over the image */
 .template-name-overlay {
   position: absolute;
-  bottom: 10px;
-  width: 100%;
-  padding: 10px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 12px;
   background: linear-gradient(to right, #2b1845, #6b3bab);
   color: white;
   text-align: center;
   font-weight: bold;
   opacity: 0;
   transition: opacity 0.3s ease;
+  z-index: 2; /* Ensure overlay is above image */
 }
 
 /* Show overlay only on center */
-.slick-center .template-name-overlay {
+.custom-carousel-slide.center-slide .template-name-overlay {
   opacity: 1;
 }
-/* Make sure container allows scaling */
-.slick-slide > div {
-  overflow: visible; /* allow image to overflow */
+
+/* Custom dots styling */
+.custom-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 20px;
 }
 
-/* Disable scaling on mobile */
+.custom-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  background: #ccc;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.custom-dot.active {
+  background: #2b1845;
+}
+
+.custom-dot:hover {
+  background: #6b3bab;
+}
+
+/* Responsive behavior */
+@media screen and (max-width: 1024px) {
+  .custom-carousel-slide .relative {
+    height: 300px;
+  }
+}
+
 @media screen and (max-width: 768px) {
-  .slick-slide {
+  .custom-carousel-slide {
     opacity: 1 !important;
     transform: scale(1) !important;
   }
 
-  .slick-center {
+  .custom-carousel-slide.center-slide {
     transform: scale(1) !important;
   }
+  
+  /* Mobile specific styling */
+  .custom-carousel-slide .relative {
+    height: 340px;
+    width: 227px;
+  }
 
+  /* Ensure image fills the entire container */
+  .custom-carousel-slide img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* Overlay always visible on mobile and properly positioned */
   .template-name-overlay {
     opacity: 1;
-    bottom: 0px;
+    bottom: 0;
+    position: absolute;
+    z-index: 2;
   }
 }
